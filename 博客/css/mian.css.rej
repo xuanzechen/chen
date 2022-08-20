@@ -1,0 +1,10 @@
+diff a/博客/css/mian.css b/博客/css/mian.css	(rejected hunks)
+@@ -38,7 +38,7 @@
+     text-align: center;
+     padding-left: 10px;
+     padding-top: 15px ;
+-    font-family: FZShuTi;
++    
+     font-size: 21px;
+ }
+ .menu{
