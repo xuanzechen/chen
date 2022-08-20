@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #DCDCDC;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background-color: #a9d192;
+    position: fixed;
+  
+}
+.image{
+    display: flex;
+    margin-left: 15%;
+}
+
+.nav .image img{
+    border-radius: 100%;
+    height: 80%;
+    padding-top: 5px;
+}
+.nav .image p{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px ;
+    
+    font-size: 21px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-end;
+    padding-top: 5px;
+    margin-right: 15%;
+    
+    
+}
+.menu ul {
+    justify-content: space-around;
+}
+.menu ul li{
+    display: block;
+    padding: 10px 8px;
+    font-size: 15px;
+}
+.menu ul li img{
+    background-color: #a9d192;
+}
+.ima img{
+    width: 100%;
+    height: 400px;
+}
+.main{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+     
+    justify-content: center;
+  
+}
+.title{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+.top{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #f6f6f6;
+    /* justify-content: center;
+    align-items: center; */
+    box-shadow: 2px 1px 2px #000;
+    border-radius: 10px;
+    
+}
+.right{
+    display: flex;
+    width: 20%;
+    height: 100px;
+    margin-left: 20px;
+     
+    
+}
+.tab{
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #f6f6f6;
+    /* justify-content: center;
+    align-items: center; */
+    box-shadow: 2px 1px 2px #000;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.image_1{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    flex-direction: column;
+}
+.image_1 img{
+    border-radius: 100%;
+    height: 70px;
+    padding-top: 5px;
+}
+.right_main{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cen p{
+    padding-top: 10px;
+}
